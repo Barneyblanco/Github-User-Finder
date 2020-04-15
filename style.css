@@ -1,0 +1,94 @@
+.fixed{
+    background-color: #f2f2f2;
+    
+    background-size: cover; 
+    text-align: center;
+    
+}
+
+.repostitle{
+    text-decoration: underline red;
+    text-align: center;
+}
+
+#headid{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+.jumbo{
+    margin-top: 7%;
+}
+
+.avatar{
+    width: 100%;
+    
+}
+
+
+#repos{
+    margin-top: 20px;
+}
+
+#btnd{
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1500px){
+    #btnfirst{
+        margin-top: 1rem;
+    }
+
+    .jumbo{
+        margin-top: 15%;
+    }
+
+    #headid{
+        font-size: 1.3rem;
+        
+    }
+
+    .avatar{
+        max-height: 100%;
+        width: 100%;
+        border: 25px solid #f2f2f2;
+    }
+
+    #btnd{
+        display: block;
+       margin-bottom: 3rem ; 
+    }
+    
+   
+}
+
+@media screen and (min-width: 900px){
+    #headid{
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    #btnfirst{
+        margin-top: 0;
+    }
+
+    .avatar{
+        
+        border: 0px solid #f2f2f2;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    #inputUsername{
+        margin-right: 50px;
+    }
+
+    #headid{
+        
+        margin-top: 4rem 0 0 0;
+    }
+}
+
